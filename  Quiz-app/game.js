@@ -67,7 +67,7 @@ getNewQuestion = () => {
         localStorage.setItem('mostRecentScore', score);//mostRecentscore is key and score is value
         
         //if if is passes it will redirect to end page
-        return window.location.assign('/end.html');
+        return window.location.assign('end.html');
     }
 
     questionCounter++; //if the above if condition is not true then it increases the question
