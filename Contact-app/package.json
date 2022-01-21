@@ -1,0 +1,17 @@
+{
+  "name": "contact-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "module.js": "^2.2.4",
+    "parcel-bundler": "^1.12.5"
+  },
+  "devDependencies": {},
+  "description": ""
+}
