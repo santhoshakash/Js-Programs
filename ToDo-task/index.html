@@ -27,6 +27,14 @@
         .list-group {
             font-size: 1.5rem;
         }
+
+        .show {
+            display: block;
+        }
+
+        .hide {
+            display: none;
+        }
     </style>
 </head>
 
@@ -59,11 +67,14 @@
                 <ul class="list-group list-group-flush" id="itemsList">
                     <!-- Use javascript to diplay list items here-->
                 </ul>
-                
+
+                <input type="hidden" id="objIndex" value="">
+                <input type="hidden" id="tabValue" value="all">
             </div>
         </div>
 
     </div>
+
     <script src="script.js"></script>
 </body>
 
